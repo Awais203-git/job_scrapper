@@ -29,7 +29,7 @@ class JobSpider(scrapy.Spider):
 
     TODAY = date.today().strftime("%Y-%m-%d")
 
-    GREENHOUSE_COMPANIES = ["shopify", "stripe", "notion"]
+    GREENHOUSE_COMPANIES = ["stripe", "hubspot", "squarespace"]
 
     def start_requests(self):
         for company in self.GREENHOUSE_COMPANIES:
@@ -107,7 +107,7 @@ class JobSpider(scrapy.Spider):
                 item["job_title"] + " " + clean_desc
             )
 
-            metadata = job.get("metadata", [])
+            metadata = job.get("metadata") or []
             emp_type = ""
             salary   = ""
             for m in metadata:

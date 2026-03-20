@@ -1,0 +1,43 @@
+{
+  "total_jobs": 558,
+  "top_skills": {
+    "communication": 373,
+    "go": 168,
+    "collaboration": 166,
+    "sql": 126,
+    "python": 64,
+    "java": 51,
+    "aws": 32,
+    "machine learning": 28,
+    "javascript": 24,
+    "react": 20
+  },
+  "top_companies": {
+    "Stripe": 516,
+    "Squarespace": 42
+  },
+  "top_locations": {
+    "Dublin": 55,
+    "Bengaluru": 47,
+    "New York City": 27,
+    "Singapore": 21,
+    "Mexico City": 18,
+    "London": 15,
+    "US": 15,
+    "Bangalore": 11,
+    "Toronto": 10,
+    "LOCATION": 10
+  },
+  "experience_levels": {
+    "Senior": 266,
+    "Management": 199,
+    "Entry-level": 91,
+    "Mid-level": 2
+  },
+  "employment_types": {
+    "Full-time": 498,
+    "Part-time": 44,
+    "Contract": 8,
+    "Internship": 8
+  }
+}
